@@ -15,12 +15,12 @@
 		CA32EC3223A714D800AAC08B /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA32EC2B23A714D800AAC08B /* RoundedButton.swift */; };
 		CA32EC3323A714D800AAC08B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA32EC2C23A714D800AAC08B /* Main.storyboard */; };
 		CA32EC3423A714D800AAC08B /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA32EC2E23A714D800AAC08B /* Utilities.swift */; };
-		CA32EC3923A714F400AAC08B /* Music in Resources */ = {isa = PBXBuildFile; fileRef = CA32EC3523A714F400AAC08B /* Music */; };
 		CA32EC3A23A714F400AAC08B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA32EC3623A714F400AAC08B /* LaunchScreen.storyboard */; };
 		CA32EC3E23A7157D00AAC08B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA32EC3C23A7157C00AAC08B /* Assets.xcassets */; };
 		CA32EC3F23A7157D00AAC08B /* Assets.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = CA32EC3D23A7157D00AAC08B /* Assets.scnassets */; };
 		CA32EC4123A7183600AAC08B /* CommentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA32EC4023A7183600AAC08B /* CommentController.swift */; };
 		CA32EC4323A7184300AAC08B /* CommentList.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA32EC4223A7184300AAC08B /* CommentList.swift */; };
+		CA32EC4823A71CA300AAC08B /* Corps.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CA32EC4723A71CA300AAC08B /* Corps.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,13 +56,12 @@
 		CA32EC2B23A714D800AAC08B /* RoundedButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RoundedButton.swift; path = "../../../../Downloads/CreatingAMultiuserARExperience/Glee Club/RoundedButton.swift"; sourceTree = "<group>"; };
 		CA32EC2D23A714D800AAC08B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "../../../../Downloads/CreatingAMultiuserARExperience/Glee Club/Base.lproj/Main.storyboard"; sourceTree = "<group>"; };
 		CA32EC2E23A714D800AAC08B /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Utilities.swift; path = "../../../../Downloads/CreatingAMultiuserARExperience/Glee Club/Utilities.swift"; sourceTree = "<group>"; };
-		CA32EC3523A714F400AAC08B /* Music */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Music; path = "../../../../Downloads/CreatingAMultiuserARExperience/Glee Club/Music"; sourceTree = "<group>"; };
 		CA32EC3723A714F400AAC08B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "../../../../Downloads/CreatingAMultiuserARExperience/Glee Club/Base.lproj/LaunchScreen.storyboard"; sourceTree = "<group>"; };
 		CA32EC3C23A7157C00AAC08B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CA32EC3D23A7157D00AAC08B /* Assets.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = Assets.scnassets; sourceTree = "<group>"; };
 		CA32EC4023A7183600AAC08B /* CommentController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CommentController.swift; path = ../../book/book/CommentController.swift; sourceTree = "<group>"; };
 		CA32EC4223A7184300AAC08B /* CommentList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CommentList.swift; path = ../../book/book/CommentList.swift; sourceTree = "<group>"; };
-		CA32EC4523A71AD700AAC08B /* Corps.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Corps.mp3; sourceTree = "<group>"; };
+		CA32EC4723A71CA300AAC08B /* Corps.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Corps.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,7 +92,6 @@
 		CA32EBEB23A7148C00AAC08B = {
 			isa = PBXGroup;
 			children = (
-				CA32EC4423A71AD700AAC08B /* Music */,
 				CA32EBF623A7148C00AAC08B /* Glee Club */,
 				CA32EC0D23A7148D00AAC08B /* Glee ClubTests */,
 				CA32EC1823A7148D00AAC08B /* Glee ClubUITests */,
@@ -114,10 +112,10 @@
 		CA32EBF623A7148C00AAC08B /* Glee Club */ = {
 			isa = PBXGroup;
 			children = (
+				CA32EC4623A71C1700AAC08B /* Music */,
 				CA32EC3623A714F400AAC08B /* LaunchScreen.storyboard */,
 				CA32EC3D23A7157D00AAC08B /* Assets.scnassets */,
 				CA32EC3C23A7157C00AAC08B /* Assets.xcassets */,
-				CA32EC3523A714F400AAC08B /* Music */,
 				CA32EC2923A714D700AAC08B /* AppDelegate.swift */,
 				CA32EC2C23A714D800AAC08B /* Main.storyboard */,
 				CA32EC2A23A714D800AAC08B /* MultipeerSession.swift */,
@@ -150,10 +148,10 @@
 			path = "Glee ClubUITests";
 			sourceTree = "<group>";
 		};
-		CA32EC4423A71AD700AAC08B /* Music */ = {
+		CA32EC4623A71C1700AAC08B /* Music */ = {
 			isa = PBXGroup;
 			children = (
-				CA32EC4523A71AD700AAC08B /* Corps.mp3 */,
+				CA32EC4723A71CA300AAC08B /* Corps.mp3 */,
 			);
 			path = Music;
 			sourceTree = "<group>";
@@ -265,7 +263,7 @@
 			files = (
 				CA32EC3A23A714F400AAC08B /* LaunchScreen.storyboard in Resources */,
 				CA32EC3F23A7157D00AAC08B /* Assets.scnassets in Resources */,
-				CA32EC3923A714F400AAC08B /* Music in Resources */,
+				CA32EC4823A71CA300AAC08B /* Corps.mp3 in Resources */,
 				CA32EC3E23A7157D00AAC08B /* Assets.xcassets in Resources */,
 				CA32EC3323A714D800AAC08B /* Main.storyboard in Resources */,
 			);
