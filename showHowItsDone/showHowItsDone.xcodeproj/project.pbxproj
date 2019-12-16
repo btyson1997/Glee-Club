@@ -15,8 +15,6 @@
 		CA32EBB023982B9B00AAC08B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA32EBAE23982B9B00AAC08B /* LaunchScreen.storyboard */; };
 		CA32EBBB23982B9B00AAC08B /* showHowItsDoneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA32EBBA23982B9B00AAC08B /* showHowItsDoneTests.swift */; };
 		CA32EBC623982B9B00AAC08B /* showHowItsDoneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA32EBC523982B9B00AAC08B /* showHowItsDoneUITests.swift */; };
-		CA32EBDA239AD4BE00AAC08B /* Corps.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CA32EBD9239AD4BE00AAC08B /* Corps.mp3 */; };
-		CA32EBDE239AD97000AAC08B /* Baby.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CA32EBDD239AD97000AAC08B /* Baby.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,8 +49,6 @@
 		CA32EBC123982B9B00AAC08B /* showHowItsDoneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = showHowItsDoneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA32EBC523982B9B00AAC08B /* showHowItsDoneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = showHowItsDoneUITests.swift; sourceTree = "<group>"; };
 		CA32EBC723982B9B00AAC08B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CA32EBD9239AD4BE00AAC08B /* Corps.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Corps.mp3; sourceTree = "<group>"; };
-		CA32EBDD239AD97000AAC08B /* Baby.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Baby.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,8 +132,6 @@
 		CA32EBDC239AD70900AAC08B /* Music */ = {
 			isa = PBXGroup;
 			children = (
-				CA32EBD9239AD4BE00AAC08B /* Corps.mp3 */,
-				CA32EBDD239AD97000AAC08B /* Baby.mp3 */,
 			);
 			name = Music;
 			sourceTree = "<group>";
@@ -246,11 +240,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CA32EBDE239AD97000AAC08B /* Baby.mp3 in Resources */,
 				CA32EBA623982B9A00AAC08B /* art.scnassets in Resources */,
 				CA32EBB023982B9B00AAC08B /* LaunchScreen.storyboard in Resources */,
 				CA32EBAD23982B9B00AAC08B /* Assets.xcassets in Resources */,
-				CA32EBDA239AD4BE00AAC08B /* Corps.mp3 in Resources */,
 				CA32EBAB23982B9A00AAC08B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
