@@ -19,6 +19,8 @@
 		CA32EC3A23A714F400AAC08B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA32EC3623A714F400AAC08B /* LaunchScreen.storyboard */; };
 		CA32EC3E23A7157D00AAC08B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA32EC3C23A7157C00AAC08B /* Assets.xcassets */; };
 		CA32EC3F23A7157D00AAC08B /* Assets.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = CA32EC3D23A7157D00AAC08B /* Assets.scnassets */; };
+		CA32EC4123A7183600AAC08B /* CommentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA32EC4023A7183600AAC08B /* CommentController.swift */; };
+		CA32EC4323A7184300AAC08B /* CommentList.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA32EC4223A7184300AAC08B /* CommentList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +60,9 @@
 		CA32EC3723A714F400AAC08B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "../../../../Downloads/CreatingAMultiuserARExperience/Glee Club/Base.lproj/LaunchScreen.storyboard"; sourceTree = "<group>"; };
 		CA32EC3C23A7157C00AAC08B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CA32EC3D23A7157D00AAC08B /* Assets.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = Assets.scnassets; sourceTree = "<group>"; };
+		CA32EC4023A7183600AAC08B /* CommentController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CommentController.swift; path = ../../book/book/CommentController.swift; sourceTree = "<group>"; };
+		CA32EC4223A7184300AAC08B /* CommentList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CommentList.swift; path = ../../book/book/CommentList.swift; sourceTree = "<group>"; };
+		CA32EC4523A71AD700AAC08B /* Corps.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Corps.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +93,7 @@
 		CA32EBEB23A7148C00AAC08B = {
 			isa = PBXGroup;
 			children = (
+				CA32EC4423A71AD700AAC08B /* Music */,
 				CA32EBF623A7148C00AAC08B /* Glee Club */,
 				CA32EC0D23A7148D00AAC08B /* Glee ClubTests */,
 				CA32EC1823A7148D00AAC08B /* Glee ClubUITests */,
@@ -117,7 +123,9 @@
 				CA32EC2A23A714D800AAC08B /* MultipeerSession.swift */,
 				CA32EC2B23A714D800AAC08B /* RoundedButton.swift */,
 				CA32EC2E23A714D800AAC08B /* Utilities.swift */,
+				CA32EC4023A7183600AAC08B /* CommentController.swift */,
 				CA32EC2823A714D700AAC08B /* ViewController.swift */,
+				CA32EC4223A7184300AAC08B /* CommentList.swift */,
 				CA32EC0523A7148C00AAC08B /* Info.plist */,
 				CA32EC2723A714D700AAC08B /* Glee Club-Bridging-Header.h */,
 			);
@@ -140,6 +148,14 @@
 				CA32EC1B23A7148D00AAC08B /* Info.plist */,
 			);
 			path = "Glee ClubUITests";
+			sourceTree = "<group>";
+		};
+		CA32EC4423A71AD700AAC08B /* Music */ = {
+			isa = PBXGroup;
+			children = (
+				CA32EC4523A71AD700AAC08B /* Corps.mp3 */,
+			);
+			path = Music;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -281,6 +297,8 @@
 				CA32EC2F23A714D800AAC08B /* ViewController.swift in Sources */,
 				CA32EC3423A714D800AAC08B /* Utilities.swift in Sources */,
 				CA32EC3223A714D800AAC08B /* RoundedButton.swift in Sources */,
+				CA32EC4323A7184300AAC08B /* CommentList.swift in Sources */,
+				CA32EC4123A7183600AAC08B /* CommentController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
